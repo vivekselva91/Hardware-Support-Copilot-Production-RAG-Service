@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.0
+scikit-learn>=1.3
+numpy>=1.24
+httpx>=0.26
+streamlit>=1.32
+pytest>=7.4
+
+# Optional: enables real LLM generation when ANTHROPIC_API_KEY is set.
+# The service runs fully without it on the local deterministic synthesizer.
+# anthropic>=0.40
